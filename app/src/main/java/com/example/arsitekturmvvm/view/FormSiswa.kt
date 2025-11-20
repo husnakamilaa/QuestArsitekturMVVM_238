@@ -117,7 +117,8 @@ fun FormSiswa(
             Spacer(modifier = Modifier.height(20.dp))
             Button(
                 modifier = Modifier.fillMaxWidth(fraction = 1f),
-                enabled = txtAlamat.isNotEmpty()
+                enabled = txtAlamat.isNotEmpty(),
+                onClick = {onSubmitButtonClicked(listData)}
             ) {
 
             }
