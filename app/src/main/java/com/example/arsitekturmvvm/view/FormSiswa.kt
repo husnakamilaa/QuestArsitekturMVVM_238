@@ -120,7 +120,7 @@ fun FormSiswa(
                 enabled = txtAlamat.isNotEmpty(),
                 onClick = {onSubmitButtonClicked(listData)}
             ) {
-
+                Text(text = stringResource(R.string.submit))
             }
         }
     }
